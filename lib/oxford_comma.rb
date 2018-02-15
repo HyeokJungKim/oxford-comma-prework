@@ -1,6 +1,6 @@
 def oxford_comma(array)
   arr = []
-  for int in 0..arr.length-1 do
+  for int in (0..arr.length-1) do
     arr << array[int]
   end
   str = arr.join(" , ")
