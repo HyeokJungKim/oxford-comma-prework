@@ -3,5 +3,6 @@ def oxford_comma(array)
   for int in 0..arr.size-1 do
     arr.push(array[int])
   end
-  array.join(" , ")
+  str = arr.join(" , ")
+  str << ", and" + "array[-1]"
 end
