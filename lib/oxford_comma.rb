@@ -5,4 +5,5 @@ def oxford_comma(array)
   end
   str = arr.join(" , ")
   str << ", and" + array[-1]
+  return str
 end
